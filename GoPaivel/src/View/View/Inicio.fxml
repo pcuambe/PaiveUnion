@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="600.0" stylesheets="@../Photo_CSS/Estilo.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Control.InicioController">
+   <children>
+      <JFXToolbar prefHeight="50.0" prefWidth="1450.0">
+         <center>
+            <TextField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: transparent;" styleClass="lado-cirle-btn" BorderPane.alignment="CENTER" />
+         </center>
+      </JFXToolbar>
+      <HBox prefHeight="352.0" prefWidth="600.0">
+         <children>
+            <BorderPane prefHeight="351.0" prefWidth="600.0" HBox.hgrow="ALWAYS">
+               <top>
+                  <GridPane BorderPane.alignment="CENTER">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Segunda">
+                           <GridPane.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </GridPane.margin></Label>
+                        <Label text="Terca" GridPane.columnIndex="1">
+                           <GridPane.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </GridPane.margin></Label>
+                        <Label text="Quarta" GridPane.columnIndex="2">
+                           <GridPane.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </GridPane.margin></Label>
+                        <Label text="Quinta" GridPane.columnIndex="3">
+                           <GridPane.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </GridPane.margin></Label>
+                        <Label text="Sexta" GridPane.columnIndex="4">
+                           <GridPane.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </GridPane.margin></Label>
+                        <Label text="Sabado" GridPane.columnIndex="5">
+                           <GridPane.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </GridPane.margin></Label>
+                        <Label text="Domingo" GridPane.columnIndex="6">
+                           <GridPane.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </GridPane.margin></Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <BorderPane.margin>
+                        <Insets left="10.0" />
+                     </BorderPane.margin>
+                  </GridPane>
+               </top>
+               <center>
+                  <GridPane gridLinesVisible="true" BorderPane.alignment="CENTER">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <JFXButton fx:id="btn2" buttonType="RAISED" layoutX="10.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="1" />
+                        <JFXButton fx:id="btn3" buttonType="RAISED" layoutX="78.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="2" />
+                        <JFXButton fx:id="btn8" buttonType="RAISED" layoutX="146.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.rowIndex="1" />
+                        <JFXButton fx:id="btn9" buttonType="RAISED" layoutX="10.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <JFXButton fx:id="btn10" buttonType="RAISED" layoutX="142.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <JFXButton fx:id="btn4" buttonType="RAISED" layoutX="142.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="3" />
+                        <JFXButton fx:id="btn12" buttonType="RAISED" layoutX="208.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                        <JFXButton fx:id="btn7" buttonType="RAISED" layoutX="208.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="6" />
+                        <JFXButton fx:id="btn6" buttonType="RAISED" layoutX="208.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="5" />
+                        <JFXButton fx:id="btn5" buttonType="RAISED" layoutX="208.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="4" />
+                        <JFXButton fx:id="btn11" buttonType="RAISED" layoutX="208.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                        <JFXButton fx:id="btn18" buttonType="RAISED" layoutX="275.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <JFXButton fx:id="btn17" buttonType="RAISED" layoutX="275.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <JFXButton fx:id="btn16" buttonType="RAISED" layoutX="275.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <JFXButton fx:id="btn15" buttonType="RAISED" layoutX="275.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.rowIndex="2" />
+                        <JFXButton fx:id="btn14" buttonType="RAISED" layoutX="275.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                        <JFXButton fx:id="btn13" buttonType="RAISED" layoutX="275.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                        <JFXButton fx:id="btn29" buttonType="RAISED" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4" />
+                        <JFXButton fx:id="btn28" buttonType="RAISED" layoutX="76.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                        <JFXButton fx:id="btn27" buttonType="RAISED" layoutX="142.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                        <JFXButton fx:id="btn26" buttonType="RAISED" layoutX="10.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                        <JFXButton fx:id="btn25" buttonType="RAISED" layoutX="76.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <JFXButton fx:id="btn24" buttonType="RAISED" layoutX="142.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <JFXButton fx:id="btn23" buttonType="RAISED" layoutX="208.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <JFXButton fx:id="btn22" buttonType="RAISED" layoutX="275.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.rowIndex="3" />
+                        <JFXButton fx:id="btn21" buttonType="RAISED" layoutX="409.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                        <JFXButton fx:id="btn20" buttonType="RAISED" layoutX="342.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                        <JFXButton fx:id="btn19" buttonType="RAISED" layoutX="275.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                        <JFXButton fx:id="btn35" buttonType="RAISED" layoutX="142.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                        <JFXButton fx:id="btn34" buttonType="RAISED" layoutX="208.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                        <JFXButton fx:id="btn33" buttonType="RAISED" layoutX="275.0" layoutY="68.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                        <JFXButton fx:id="btn32" buttonType="RAISED" layoutX="409.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                        <JFXButton fx:id="btn31" buttonType="RAISED" layoutX="342.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                        <JFXButton fx:id="btn30" buttonType="RAISED" layoutX="275.0" layoutY="10.0" prefHeight="59.0" prefWidth="143.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <JFXButton fx:id="btn1" buttonType="RAISED" layoutX="409.0" layoutY="356.0" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                     <BorderPane.margin>
+                        <Insets left="5.0" />
+                     </BorderPane.margin>
+                  </GridPane>
+               </center>
+               <bottom>
+                  <Pane prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </bottom>
+            </BorderPane>
+            <VBox alignment="TOP_CENTER" prefHeight="351.0" prefWidth="239.0">
+               <children>
+                  <Label fx:id="labelNome" onDragDetected="#labelAcao" text="2018">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <JFXComboBox fx:id="comboBoxAno" onAction="#comboAcao">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXComboBox>
+                  <Separator prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Separator>
+                  <JFXButton fx:id="janeiro" minWidth="-Infinity" onAction="#janeiroAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Janeiro">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="fevereiro" layoutX="10.0" layoutY="99.0" minWidth="-Infinity" onAction="#fevereiroAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Fevereiro">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="marco" layoutX="10.0" layoutY="136.0" minWidth="-Infinity" onAction="#marcoAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Marco">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="abril" layoutX="10.0" layoutY="136.0" minWidth="-Infinity" onAction="#abrilAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Abril">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="maio" layoutX="10.0" layoutY="163.0" minWidth="-Infinity" onAction="#maioAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Maio">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="junho" layoutX="10.0" layoutY="136.0" minWidth="-Infinity" onAction="#junhoAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Junho">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="julho" layoutX="10.0" layoutY="163.0" minWidth="-Infinity" onAction="#julhoAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Julho">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="agosto" layoutX="10.0" layoutY="190.0" minWidth="-Infinity" onAction="#agostoAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Agosto">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="setembro" layoutX="10.0" layoutY="217.0" minWidth="-Infinity" onAction="#setembroAcO" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Setembro">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="outubro" layoutX="10.0" layoutY="271.0" minWidth="-Infinity" onAction="#outubroAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Outubro">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="novembro" layoutX="10.0" layoutY="298.0" minWidth="-Infinity" onAction="#novembroAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Novembro">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="dezembro" layoutX="10.0" layoutY="325.0" minWidth="-Infinity" onAction="#dezembroAcao" prefHeight="200.0" prefWidth="150.0" styleClass="botao-meses" text="Dezembro">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+               </children>
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
