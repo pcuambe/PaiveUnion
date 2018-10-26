@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" focusTraversable="true" prefHeight="409.0" prefWidth="800.0" styleClass="fundo-login-image" stylesheets="@../Photo_CSS/Estilo.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Control.LoginController">
+   <children>
+      <Pane prefHeight="409.0" prefWidth="800.0" stylesheets="@../Photo_CSS/Estilo.css">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+         <children>
+            <Pane layoutX="220.0" layoutY="56.0" opacity="0.66" prefHeight="298.0" prefWidth="361.0" style="-fx-background-color: #fff;" styleClass="bordas">
+               <children>
+                  <JFXTextField fx:id="txtUser" labelFloat="true" layoutX="72.0" layoutY="79.0" maxWidth="217.0" minWidth="217.0" prefHeight="31.0" prefWidth="217.0" promptText="Nome do Usuario" unFocusColor="BLACK">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXPasswordField fx:id="txtPass" labelFloat="true" layoutX="76.0" layoutY="149.0" maxWidth="217.0" minWidth="174.0" prefHeight="31.0" prefWidth="203.0" promptText="Palavra Passe" unFocusColor="BLACK">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </JFXPasswordField>
+                  <Hyperlink layoutX="206.0" layoutY="273.0" text="Esqueceu a Palavra Passe?" />
+                  <JFXButton fx:id="btnEntrar" buttonType="RAISED" layoutX="121.0" layoutY="211.0" onAction="#abrirPrograma" prefHeight="38.0" prefWidth="114.0" styleClass="login-btn-rosa" text="Entrar" />
+               </children>
+            </Pane>
+            <JFXButton fx:id="btnFechar" alignment="CENTER" contentDisplay="CENTER" layoutX="734.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#fecharLogin" prefHeight="38.0" prefWidth="51.0" style="-fx-background-color: transparent;" styleClass="menu-barra-btns" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" iconName="CLOSE" size="2.5em" styleClass="menu-barra-btns-icon" />
+               </graphic>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+   <effect>
+      <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" spread="0.69" width="50.0" />
+   </effect>
+</AnchorPane>

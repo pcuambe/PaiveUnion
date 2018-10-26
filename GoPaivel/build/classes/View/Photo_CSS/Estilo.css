@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2018, 6:22:28 PM
+    Author     : Ivo Brainstorm
+*/
+
+
+
+
+.janela-info{
+    -fx-background-color:  #99ccff;
+}
+/*.janela-user-lbl{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #b8b1b1;
+}*/
+
+.janela-btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    /*-fx-text-fill: #b8b1b1;*/
+    /*-fx-text-fill: black;*/
+}
+
+.janela-btn:hover{
+    -fx-background-color: #6699ff;
+    -fx-background-radius: 0.1px;
+    /*-fx-text-fill: #b8b1b1;*/
+    /*-fx-text-fill: black;*/
+    /*-fx-border-color: rgb(22, 169, 250);*/
+    -fx-border-width: 1px 0px 1px 0px;
+}
+
+.label{
+    -fx-text-fill: black;
+}
+
+.janela-btn:pressed .label{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #0099ff; 
+}
+
+.janela-btn:pressed .janela-btn-icon{
+    -fx-fill:#0099ff;
+}
+
+.janela-btn-icon{
+    -fx-fill: black;
+}
+/*
+.menu-barra-btns{
+    -fx-background-color:  #d9dfe2;;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+}*/
+
+/*
+.menu-barra-btns-icon{
+    -fx-fill: #999;
+}*/
+
+/*.menu-barra-btns:hover .menu-barra-btns-icon{
+    -fx-background-color:  #d9dfe2;;
+}*/
+
+.lado-cirle-btn{
+    -fx-background-color:  #48cd80;
+    -fx-background-radius: 100px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 100%;
+}
+
+.lado-cirle-btn:hover{
+    -fx-background-color: #009966;
+    -fx-background-radius: 100px;
+}
+
+.botao-meses:hover{
+    -fx-background-color: #6bc4ae;
+    -fx-background-radius: 100px;
+}
+
+.botao-meses{
+    -fx-background-color: transparent;
+    -fx-background-radius: 100px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 100%;
+}
+
+
+.foto-fundo{
+    -fx-background-image: url('Fundo.jpg');
+}
+
+
+.login-pane{
+    -fx-background-color:#333333;
+}
+
+.login-borda-branca-btn-trans{
+    -fx-background-color:transparent;
+    -fx-background-radius:5px;
+    -fx-border-color:#cccccc;
+    -fx-border-radius:5px;
+    -fx-border-width:1px;
+    -fx-text-fill:whitesmoke;
+}
+
+.login-cor-label{
+    -fx-text-fill:white;
+}
+
+.login-painel-branco{
+    -fx-background-color:#FFFFFF;
+}
+
+.login-label-painel{
+    -fx-text-fill:#F78C78;
+}
+
+.login-tf-box{
+    -fx-background-color:transparent;
+    -fx-border-color:#DEDEE4;
+    -fx-border-width:0px 0px 1px 0px;
+}
+
+.login-tf{
+    -fx-background-color:transparent;
+}
+
+.login-btn-rosa{
+    -fx-background-color:#F78C78;
+    -fx-bacground-radius:5px;
+    -fx-text-fill:#FFFFFF;
+}
+
+.login-parent{
+    -fx-background-color:transparent;
+}
+
+.fundo-login-image{
+    -fx-background-image:url('LoginBack.jpg');
+}
+
+.botao-pesquisa{
+    -fx-background-color: transparent;
+    -fx-background-radius: 100px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 100%;
+}
+
+.botao-pesquisa:hover{
+    -fx-background-color: transparent;
+    -fx-background-radius: 100px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 100%;
+}
